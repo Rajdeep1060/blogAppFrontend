@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import { Box, Typography, TextField, Button } from "@mui/material";
 import toast from "react-hot-toast";
 import axios from "axios";
-
+import Url from "../assets/Url";
 const Register = () => {
   const navigate = useNavigate();
   const [inputs, setInputs] = useState({
@@ -22,7 +22,7 @@ const Register = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const { data } = await axios.post("/api/v1/user/register", {
+      const { data } = await axios.post(`${Url}/api/v1/user/register`, {
         username: inputs.name,
         email: inputs.email,
         password: inputs.password,

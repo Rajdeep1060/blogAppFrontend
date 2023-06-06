@@ -5,7 +5,7 @@ import axios from "axios";
 import { useDispatch } from "react-redux";
 import { authActions } from "../redux/store";
 import toast from "react-hot-toast";
-
+import Url from "../assets/Url";
 const Login = () => {
   const navigate = useNavigate();
   const dispatch = useDispatch();
@@ -25,7 +25,7 @@ const Login = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
-      const { data } = await axios.post("/api/v1/user/login", {
+      const { data } = await axios.post(`${Url}/api/v1/user/login`, {
         email: inputs.email,
         password: inputs.password,
       });
