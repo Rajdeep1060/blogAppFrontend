@@ -2,8 +2,6 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-<img width="1440" alt="storycrafters" src="https://github.com/Rajdeep1060/blogAppFrontend/assets/78644408/9f510327-b66a-4b2e-ae0d-48ea1dbbb070">
-
 
 ## Available Scripts
 
@@ -71,3 +69,9 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+
+
+
+<img width="1440" alt="storycrafters" src="https://github.com/Rajdeep1060/blogAppFrontend/assets/78644408/739f6db5-2ee0-4000-b19e-f1f5ae69e6ce">
+
